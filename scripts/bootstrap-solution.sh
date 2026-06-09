@@ -70,6 +70,13 @@ cp docs/developer/references/templates/solution-README.md.stub README.md
 cp docs/developer/references/templates/solution-ROADMAP.md.stub ROADMAP.md
 cp docs/developer/references/templates/solution-business-requirements.md.stub manifest/business-requirements.md
 
+# Remove template-product history; seed solution-neutral missives and release archives
+find missives -mindepth 1 -delete 2>/dev/null || true
+mkdir -p missives release
+cp docs/developer/references/templates/solution-missives-README.md.stub missives/README.md
+cp docs/developer/references/templates/solution-release-README.md.stub release/README.md
+find release -mindepth 1 -name 'v*.md' -delete 2>/dev/null || true
+
 export PROJECT_NAME PROJECT_DESCRIPTION MKA_VERSION
 while IFS= read -r -d '' file; do
   python3 - << 'PY' "$file"
@@ -83,7 +90,7 @@ content = content.replace('{{MKA_VERSION}}', os.environ.get('MKA_VERSION', ''))
 with open(path, 'w', encoding='utf-8') as f:
     f.write(content)
 PY
-done < <(find README.md ROADMAP.md manifest docs/user docs/admin -type f \( -name '*.md' -o -name '*.stub' \) -print0 2>/dev/null || true)
+done < <(find README.md ROADMAP.md manifest missives release docs/user docs/admin -type f \( -name '*.md' -o -name '*.stub' \) -print0 2>/dev/null || true)
 
 rm -f install.sh
 

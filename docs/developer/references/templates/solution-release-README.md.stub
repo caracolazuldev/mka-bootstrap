@@ -1,0 +1,5 @@
+# Release archive
+
+Completed milestones for **{{PROJECT_NAME}}** are archived here as semantic-version release notes (`vX.Y.Z.md`).
+
+Each release closes a sprint and records what shipped.

@@ -101,6 +101,12 @@ check_solution() {
   if grep -qi "template product" "$REPO_ROOT/README.md" && grep -qi "dogfood" "$REPO_ROOT/README.md"; then
     fail "README appears to be mka-bootstrap maintainer README, not solution README"
   fi
+  if [[ -f "$REPO_ROOT/missives/2026-06-09-mka-solution-testing-reference-install.md" ]]; then
+    fail "Template-product missives must not appear in solution repo"
+  fi
+  if [[ -f "$REPO_ROOT/release/v0.1.0.md" ]] && grep -q "mka-bootstrap governance template" "$REPO_ROOT/release/v0.1.0.md" 2>/dev/null; then
+    fail "Template-product release notes must not appear in solution repo"
+  fi
 }
 
 check_skills() {

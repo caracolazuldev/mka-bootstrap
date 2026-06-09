@@ -15,9 +15,15 @@ fi
 git -C "$REPO_DIR" remote get-url origin >/dev/null 2>&1 || fail "origin remote missing"
 git -C "$REPO_DIR" remote get-url project-bootstrap >/dev/null 2>&1 || fail "project-bootstrap remote missing"
 
-for dir in manifest docs/developer docs/user docs/admin release; do
+for dir in manifest docs/developer docs/user docs/admin release missives; do
   [[ -d "$REPO_DIR/$dir" ]] || fail "Missing directory: $dir"
 done
+
+[[ ! -f "$REPO_DIR/missives/2026-06-09-mka-solution-testing-reference-install.md" ]] || \
+  fail "Template-product missive must not appear in solution repo"
+
+[[ ! -f "$REPO_DIR/release/v0.1.0.md" ]] || \
+  fail "Template-product release notes must not appear in solution repo"
 
 "$REPO_DIR/scripts/validate-governance-structure.sh" --context solution
 

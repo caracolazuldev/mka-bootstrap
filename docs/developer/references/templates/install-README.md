@@ -43,4 +43,4 @@ Read your new `README.md`, `ROADMAP.md`, and `docs/developer/architecture/knowle
 
 ## Need help?
 
-See the template documentation at [caracolazuldev/mka-bootstrap](https://github.com/caracolazuldev/mka-bootstrap) on branch `main`.
+See the template documentation on the [main branch](https://github.com/caracolazuldev/mka-bootstrap/tree/main).
