@@ -22,4 +22,13 @@ Closed in v0.1.0. Reference install documented in [missives/2026-06-09-mka-solut
 
 # ── Scoping ──
 
+## M-006 Reconcile MKA knowledge artifacts (Phase 1 import)
+
+Import low-risk knowledge artifacts from the standalone mka repository into mka-bootstrap without changing bootstrap/install mechanics. This milestone covers missive context imports, seed reference preservation, and traceability setup for subsequent methodology integration work.
+
+Done when:
+- Pilot and kickoff missives are imported under `missives/`.
+- Karsheft seed references are imported under `docs/developer/references/`.
+- `scripts/validate-governance-structure.sh --context main` passes.
+
 <!-- Next sprint milestones go here as ## M-### Title -->
