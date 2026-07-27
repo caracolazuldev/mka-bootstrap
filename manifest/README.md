@@ -1,6 +1,8 @@
 # Manifest
 
-Business requirements and project-management artifacts for mka-bootstrap (maintainer context on `main`).
+Governance and business-requirements artifacts for mka-bootstrap (maintainer context on `main`).
+
+In MKA terms, Manifest is the governance contract and includes or references the business requirements index. Architecture and Approach remain separate document classes under `docs/developer/architecture/` and `docs/developer/approach/`.
 
 ## BR ↔ milestone matrix
 

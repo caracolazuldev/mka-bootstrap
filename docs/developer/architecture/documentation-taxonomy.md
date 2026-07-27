@@ -4,12 +4,21 @@ Rules for placing and linking documentation in mka-bootstrap and solution repos 
 
 ## Placement rules
 
-1. **Business intent** → `manifest/` (never mandate implementation approach in BRs)
-2. **Workflow and rationale** → `docs/developer/approach/`
-3. **Technical strategy and standards** → `docs/developer/architecture/`
-4. **Feature specs (in progress)** → `docs/developer/` (promote when stable)
-5. **End-user content** → `docs/user/` (most complete; may be syndicated)
-6. **Operations** → `docs/admin/` (link to user docs; avoid duplication)
+1. **Business intent and governance contract** → `manifest/` (never mandate implementation approach in BRs)
+2. **Business requirements index details** → `manifest/business-requirements.md`
+3. **Workflow and delivery rationale** → `docs/developer/approach/`
+4. **Technical strategy and standards (solution-agnostic)** → `docs/developer/architecture/`
+5. **Feature specs (in progress)** → `docs/developer/` (promote when stable)
+6. **End-user content** → `docs/user/` (most complete; may be syndicated)
+7. **Operations** → `docs/admin/` (link to user docs; avoid duplication)
+
+## MKA boundary rules
+
+- **Manifest** states what must be governed and achieved.
+- **Architecture** states what environment and constraints exist.
+- **Approach** states how the chosen solution proceeds.
+
+When a document spans multiple boundaries, split it and cross-link rather than blending classes.
 
 ## ROADMAP format
 

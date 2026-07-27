@@ -31,4 +31,14 @@ Done when:
 - Karsheft seed references are imported under `docs/developer/references/`.
 - `scripts/validate-governance-structure.sh --context main` passes.
 
+## M-007 Reconcile MKA methodology boundaries (Phase 2 integration)
+
+Integrate MKA distinctions across architecture and taxonomy guidance so Manifest, Business Requirements Index, Architecture, and Approach remain explicit and auditable document classes.
+
+Done when:
+- `docs/developer/architecture/knowledge-management.md` defines MKA boundary distinctions.
+- `docs/developer/architecture/documentation-taxonomy.md` includes placement and split rules for Manifest, Architecture, and Approach.
+- `manifest/README.md` reflects governance-contract semantics and cross-links the boundary model.
+- `scripts/validate-governance-structure.sh --context main` passes.
+
 <!-- Next sprint milestones go here as ## M-### Title -->
