@@ -19,6 +19,7 @@ In MKA terms, Manifest is the governance contract and includes or references the
 | File | Purpose |
 |------|---------|
 | [business-requirements.md](business-requirements.md) | BR-### acceptance criteria |
+| [pilot-acceptance-contracts.md](pilot-acceptance-contracts.md) | Pilot-level MKA and APT validation contracts |
 | [personas.md](personas.md) | Maintainer and consumer personas |
 | [roadmap-processes.md](roadmap-processes.md) | Sprint cadence and release workflow |
 | [glossary.md](glossary.md) | Shared terms |

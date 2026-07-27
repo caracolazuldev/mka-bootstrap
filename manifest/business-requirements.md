@@ -29,3 +29,15 @@ Maintainers on `main` can publish template updates to the consumer-facing `insta
 The full consumer workflow (clone install → install.sh → solution repo) is verified on GitHub using mka-solution-testing as the reference install.
 
 **Acceptance:** Documented in `release/v0.1.0.md` and `missives/`.
+
+## BR-006 Pilot acceptance contracts defined for MKA-first prototype window
+
+The three selected pilots (Product Manager & Implementation Manager, Google Collaboration Suite, Meeting Secretary) must each have explicit acceptance contracts that require both MKA artifact usage and APT packaging validation paths.
+
+**Acceptance:** `manifest/pilot-acceptance-contracts.md` exists and defines required evidence fields for all three pilots.
+
+## BR-007 Cross-pilot synthesis and rollout recommendation published
+
+Pilot execution outcomes must be consolidated into a friction log, interface mapping, and rollout recommendation to support the next sprint decision.
+
+**Acceptance:** Cross-pilot synthesis artifacts are published in `missives/` and linked from ROADMAP milestones.
