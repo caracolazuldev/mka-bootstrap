@@ -2,6 +2,8 @@
 
 mka-bootstrap defines a **layered, discoverable documentation architecture** for software projects. Information flows from business intent (manifest) through approach and architecture to user-facing and admin documentation.
 
+This architecture follows Managed-Knowledge Agility (MKA) distinctions so governance intent, technical context, and delivery choices do not collapse into one document class.
+
 ## Information layers
 
 ```mermaid
@@ -29,6 +31,17 @@ flowchart TB
 | Developer working | `docs/developer/` top-level specs | In-progress specs; promote when stable |
 | User | `docs/user/` | Complete end-user documentation; may be published/syndicated |
 | Admin | `docs/admin/` | Operations; defer to user docs for shared topics |
+
+## MKA distinctions: manifest, architecture, and approach
+
+Use the following boundaries when writing and reviewing project knowledge:
+
+- **Manifest** defines governance obligations and includes or references the business requirements index.
+- **Business requirements index** records stakeholder needs, obligations, desired outcomes, and acceptance drivers.
+- **Architecture** remains solution-agnostic and documents platform landscape, constraints, and decision framework.
+- **Approach** applies architecture to requirements and records implementation decisions, tradeoffs, and sequencing.
+
+These boundaries keep roadmap and milestone decisions auditable and reduce cross-team ambiguity.
 
 ## Branch model: main vs install
 
@@ -61,6 +74,10 @@ Stack-specific skills may be added later under `docs/developer/skills/` without 
 ## Working documents and promotion
 
 Exploratory docs may live at `docs/developer/` top level during implementation. When stable, promote using [working-doc-promotion.md](../approach/working-doc-promotion.md).
+
+## Text-first knowledge posture
+
+Prefer human-readable, version-control-friendly artifacts for structured knowledge wherever practical. Markdown is the default; TOML may be used where lightweight structured metadata is beneficial.
 
 ## Offline test harness
 
