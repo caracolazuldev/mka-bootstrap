@@ -40,3 +40,7 @@ Before moving to **In Progress**:
 Completed → Acceptance → Quality Assurance → In Progress → Sprint → Scoping
 
 Milestones belong to the stage **above** the next marker below them.
+
+## Approach records
+
+Solution repos may keep an approach record under `docs/developer/approach/` using [solution-approach-record.md.stub](../references/templates/solution-approach-record.md.stub). Record implementation decisions, tradeoffs, and sequencing there; do not fold those choices into `manifest/` business requirements.

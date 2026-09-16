@@ -1,0 +1,22 @@
+# Approach record — {{PROJECT_NAME}}
+
+How this solution applies architecture to requirements: implementation decisions, tradeoffs, and sequencing.
+
+Keep this record in `docs/developer/approach/`. Architecture stays solution-agnostic; do not fold delivery choices into `manifest/` business requirements.
+
+## Decisions
+
+| Decision | Choice | Tradeoff |
+|----------|--------|----------|
+| Example | Record the selected option | Note what was rejected and why |
+
+## Sequencing
+
+1. Current milestone or sprint focus
+2. Next gated change
+
+## Links
+
+- Business requirements: `manifest/business-requirements.md`
+- Architecture: `docs/developer/architecture/`
+- Live work: `ROADMAP.md`

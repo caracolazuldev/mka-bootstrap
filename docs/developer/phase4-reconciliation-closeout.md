@@ -1,6 +1,6 @@
 # Phase 4 knowledge reconciliation close-out (working spec)
 
-Working spec for **M-012**. Promote to approach or archive after acceptance.
+Working spec for **M-012**. Status: **implemented**; milestone is in Acceptance. Promote to approach or archive at sprint close-out.
 
 Governing stakeholder record: [missives/2026-07-27-mka-knowledge-reconciliation-plan.md](../../missives/2026-07-27-mka-knowledge-reconciliation-plan.md). Session brief: [missives/2026-09-16-knowledge-reconciliation-closeout.md](../../missives/2026-09-16-knowledge-reconciliation-closeout.md).
 
@@ -19,12 +19,12 @@ This milestone **closes knowledge reconciliation**. It does not execute pilots M
 | Phase 1 import (missives, Karsheft seeds, M-006) | Done | Move M-006 to Completed |
 | Phase 2 methodology boundaries (M-007) | Done | Move M-007 to Completed |
 | Phase 3 pilot contracts (M-008–M-011, BR-006/007) | Done as *contracts*; pilots themselves remain scoped | Leave M-008–M-011 in Scoping |
-| Mapping item 8: maintainer README framing | Open | Decide and implement |
-| Mapping item 9: extract domain README wording into indexes | Open | Extract or drop with rationale |
-| Phase 4: freeze/archive standalone `mka` | Open | Decide and implement |
-| Unmerged methodology keep/archive/drop list | Open | Publish and apply |
-| Q3 artifact kit vs existing templates | Open | Confirm or add one follow-on milestone |
-| Install overlay contract after overlay-file edits | Open | Verify before merge |
+| Mapping item 8: maintainer README framing | Done | Relationship to MKA on maintainer README only |
+| Mapping item 9: extract domain README wording into indexes | Dropped | Verbatim domain READMEs skipped; rationale in close-out missive |
+| Phase 4: freeze/archive standalone `mka` | Done | Freeze note on sibling `mka/README.md` |
+| Unmerged methodology keep/archive/drop list | Done | Published in close-out missive |
+| Q3 artifact kit vs existing templates | Done | Existing stubs confirmed; Approach stub added; no Charter stub |
+| Install overlay contract after overlay-file edits | Done | `validate-governance-structure.sh --context main` and harness `all` |
 
 ## Recommended keep / archive / drop
 

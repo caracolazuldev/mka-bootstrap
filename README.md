@@ -11,6 +11,12 @@ A **solution-independent governance template** for software projects. mka-bootst
 
 This repository **dogfoods its own governance**: the template product on `main` is developed using the same ROADMAP, manifest, skills, and release process it prescribes for every solution repo.
 
+## Relationship to MKA
+
+Managed-Knowledge Agility (MKA) is the knowledge practice this template dogfoods. For the current prototype window, **canonical execution home is this repository**, not standalone `mka`. Karsheft consumes MKA and remains a dependent ecosystem. Audience is internal collaborators (human and agent).
+
+Do not put this framing on the consumer `install` README; that overlay stays a clone/install guide.
+
 ## Documentation map
 
 | Layer | Location | Purpose |
