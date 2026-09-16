@@ -20,26 +20,43 @@ Closed in v0.1.0. See [release/v0.1.0.md](release/v0.1.0.md).
 
 Closed in v0.1.0. Reference install documented in [missives/2026-06-09-mka-solution-testing-reference-install.md](missives/2026-06-09-mka-solution-testing-reference-install.md).
 
-# ── Scoping ──
-
 ## M-006 Reconcile MKA knowledge artifacts (Phase 1 import)
 
-Import low-risk knowledge artifacts from the standalone mka repository into mka-bootstrap without changing bootstrap/install mechanics. This milestone covers missive context imports, seed reference preservation, and traceability setup for subsequent methodology integration work.
+Imported low-risk knowledge artifacts from standalone mka without changing bootstrap/install mechanics.
 
-Done when:
-- Pilot and kickoff missives are imported under `missives/`.
-- Karsheft seed references are imported under `docs/developer/references/`.
-- `scripts/validate-governance-structure.sh --context main` passes.
+Closed when:
+- Pilot and kickoff missives landed under `missives/`.
+- Karsheft seed references landed under `docs/developer/references/`.
+- `scripts/validate-governance-structure.sh --context main` passed.
 
 ## M-007 Reconcile MKA methodology boundaries (Phase 2 integration)
 
-Integrate MKA distinctions across architecture and taxonomy guidance so Manifest, Business Requirements Index, Architecture, and Approach remain explicit and auditable document classes.
+Integrated MKA document-class distinctions so Manifest, Business Requirements Index, Architecture, and Approach stay explicit.
+
+Closed when:
+- `docs/developer/architecture/knowledge-management.md` defined MKA boundary distinctions.
+- `docs/developer/architecture/documentation-taxonomy.md` included placement and split rules.
+- `manifest/README.md` reflected governance-contract semantics.
+- `scripts/validate-governance-structure.sh --context main` passed.
+
+# ── Sprint ──
+
+## M-012 Close MKA knowledge reconciliation (Phase 4)
+
+Finish the knowledge-reconciliation plan without executing pilots. Confirm canonical home, publish an explicit keep/archive/drop list for unmerged MKA methodology, resolve maintainer README framing, and confirm whether existing solution templates already satisfy the Q3 artifact kit.
+
+Do not merge `mka` and `mka-bootstrap` histories. Do not change installer scripts. Treat `README.md`, `ROADMAP.md`, and `manifest/business-requirements.md` as install-overlay files: verify the overlay contract after edits.
+
+Working spec: [docs/developer/phase4-reconciliation-closeout.md](docs/developer/phase4-reconciliation-closeout.md). Plan and session brief: [missives/2026-07-27-mka-knowledge-reconciliation-plan.md](missives/2026-07-27-mka-knowledge-reconciliation-plan.md), [missives/2026-09-16-knowledge-reconciliation-closeout.md](missives/2026-09-16-knowledge-reconciliation-closeout.md).
 
 Done when:
-- `docs/developer/architecture/knowledge-management.md` defines MKA boundary distinctions.
-- `docs/developer/architecture/documentation-taxonomy.md` includes placement and split rules for Manifest, Architecture, and Approach.
-- `manifest/README.md` reflects governance-contract semantics and cross-links the boundary model.
+- Keep/archive/drop dispositions are recorded in a missive.
+- Plan items 8 and 9 are implemented or explicitly dropped with rationale.
+- Standalone `mka` is frozen or archived with a canonical-home note, or a written decision explains why not.
 - `scripts/validate-governance-structure.sh --context main` passes.
+- `./scripts/test/run-local-harness.sh all` passes if overlay files changed.
+
+# ── Scoping ──
 
 ## M-008 Pilot Alpha: Product Manager & Implementation Manager (Agentic MKA)
 

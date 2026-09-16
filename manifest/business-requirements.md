@@ -41,3 +41,9 @@ The three selected pilots (Product Manager & Implementation Manager, Google Coll
 Pilot execution outcomes must be consolidated into a friction log, interface mapping, and rollout recommendation to support the next sprint decision.
 
 **Acceptance:** Cross-pilot synthesis artifacts are published in `missives/` and linked from ROADMAP milestones.
+
+## BR-008 Knowledge reconciliation close-out
+
+High-value knowledge from standalone mka must be merged, archived, or dropped with rationale, with one canonical execution home and no disruption to bootstrap/install behavior.
+
+**Acceptance:** Keep/archive/drop dispositions are published in `missives/`; M-012 acceptance criteria on ROADMAP.md are met; `validate-governance-structure.sh --context main` exits 0.

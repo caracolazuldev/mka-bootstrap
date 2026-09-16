@@ -75,6 +75,8 @@ Stack-specific skills may be added later under `docs/developer/skills/` without 
 
 Exploratory docs may live at `docs/developer/` top level during implementation. When stable, promote using [working-doc-promotion.md](../approach/working-doc-promotion.md).
 
+Current working spec: [phase4-reconciliation-closeout.md](../phase4-reconciliation-closeout.md) (M-012).
+
 ## Text-first knowledge posture
 
 Prefer human-readable, version-control-friendly artifacts for structured knowledge wherever practical. Markdown is the default; TOML may be used where lightweight structured metadata is beneficial.

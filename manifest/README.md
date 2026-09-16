@@ -13,6 +13,9 @@ In MKA terms, Manifest is the governance contract and includes or references the
 | BR-003 | M-003 | Install/bootstrap scripts produce valid solution repo | `./scripts/test/run-local-harness.sh bootstrap` passes |
 | BR-004 | M-004 | `install` default branch publishable from `main` | `./scripts/test/run-local-harness.sh publish` passes |
 | BR-005 | M-005 | Consumer clone + install.sh path verified end-to-end | GitHub install + mka-solution-testing documented |
+| BR-006 | M-008 M-009 M-010 | Pilot acceptance contracts for MKA and APT | `manifest/pilot-acceptance-contracts.md` covers all three pilots |
+| BR-007 | M-011 | Cross-pilot synthesis and rollout recommendation | Synthesis missive published and linked from ROADMAP |
+| BR-008 | M-012 | Knowledge reconciliation close-out | Keep/archive/drop missive published; structure validator passes |
 
 ## Contents
 

@@ -7,6 +7,7 @@
 | **Deep Backlog** | Epics and themes in manifest/Deep-Backlog.md; never promoted to ROADMAP `##` slots directly |
 | **main** | Maintainer development branch for the template product |
 | **install** | Consumer-facing default branch; clone and run `./install.sh` |
+| **install overlay** | Generated consumer branch; live diffs from `main` are typically README.md, ROADMAP.md, and manifest/business-requirements.md |
 | **project-bootstrap** | Git remote name pointing at mka-bootstrap after consumer install |
 | **Number One** | Nickname for the primary coding agent in this repo |
 | **make it so** | Execution trigger: build the active plan in agent mode |
