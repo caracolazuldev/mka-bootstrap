@@ -39,7 +39,7 @@ Closed when:
 - `manifest/README.md` reflected governance-contract semantics.
 - `scripts/validate-governance-structure.sh --context main` passed.
 
-# ── Sprint ──
+# ── Acceptance ──
 
 ## M-012 Close MKA knowledge reconciliation (Phase 4)
 
@@ -47,7 +47,7 @@ Finish the knowledge-reconciliation plan without executing pilots. Confirm canon
 
 Do not merge `mka` and `mka-bootstrap` histories. Do not change installer scripts. Treat `README.md`, `ROADMAP.md`, and `manifest/business-requirements.md` as install-overlay files: verify the overlay contract after edits.
 
-Working spec: [docs/developer/phase4-reconciliation-closeout.md](docs/developer/phase4-reconciliation-closeout.md). Plan and session brief: [missives/2026-07-27-mka-knowledge-reconciliation-plan.md](missives/2026-07-27-mka-knowledge-reconciliation-plan.md), [missives/2026-09-16-knowledge-reconciliation-closeout.md](missives/2026-09-16-knowledge-reconciliation-closeout.md).
+Working spec: [docs/developer/phase4-reconciliation-closeout.md](docs/developer/phase4-reconciliation-closeout.md). Plan and close-out: [missives/2026-07-27-mka-knowledge-reconciliation-plan.md](missives/2026-07-27-mka-knowledge-reconciliation-plan.md), [missives/2026-09-16-knowledge-reconciliation-closeout.md](missives/2026-09-16-knowledge-reconciliation-closeout.md).
 
 Done when:
 - Keep/archive/drop dispositions are recorded in a missive.
@@ -55,6 +55,12 @@ Done when:
 - Standalone `mka` is frozen or archived with a canonical-home note, or a written decision explains why not.
 - `scripts/validate-governance-structure.sh --context main` passes.
 - `./scripts/test/run-local-harness.sh all` passes if overlay files changed.
+
+# ── Quality Assurance ──
+
+# ── In Progress ──
+
+# ── Sprint ──
 
 # ── Scoping ──
 

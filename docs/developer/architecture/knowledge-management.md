@@ -43,6 +43,8 @@ Use the following boundaries when writing and reviewing project knowledge:
 
 These boundaries keep roadmap and milestone decisions auditable and reduce cross-team ambiguity.
 
+Remaining standalone-mka methodology prose (self-directed-team thesis, Control inventory, title-only milestones) stays archived in that repo’s Conception tree. Do not treat it as normative here; bootstrap’s M-### stage-marker model supersedes it.
+
 ## Branch model: main vs install
 
 | Branch | Audience | Purpose |
@@ -75,7 +77,7 @@ Stack-specific skills may be added later under `docs/developer/skills/` without 
 
 Exploratory docs may live at `docs/developer/` top level during implementation. When stable, promote using [working-doc-promotion.md](../approach/working-doc-promotion.md).
 
-Current working spec: [phase4-reconciliation-closeout.md](../phase4-reconciliation-closeout.md) (M-012).
+Current working spec: [phase4-reconciliation-closeout.md](../phase4-reconciliation-closeout.md) (M-012, implemented; promote at sprint close-out).
 
 ## Text-first knowledge posture
 
