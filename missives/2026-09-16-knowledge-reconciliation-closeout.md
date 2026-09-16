@@ -2,7 +2,7 @@
 
 Final keep/archive/drop record for MKA knowledge reconciliation (M-012 / BR-008). This missive replaces the earlier same-day session brief.
 
-Governing plan: [2026-07-27-mka-knowledge-reconciliation-plan.md](2026-07-27-mka-knowledge-reconciliation-plan.md). Working spec: [docs/developer/phase4-reconciliation-closeout.md](../docs/developer/phase4-reconciliation-closeout.md).
+Governing plan: [2026-07-27-mka-knowledge-reconciliation-plan.md](2026-07-27-mka-knowledge-reconciliation-plan.md). Spec: [docs/developer/approach/knowledge-reconciliation-closeout.md](../docs/developer/approach/knowledge-reconciliation-closeout.md).
 
 ## Decisions
 

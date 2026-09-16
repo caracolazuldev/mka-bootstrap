@@ -77,7 +77,7 @@ Stack-specific skills may be added later under `docs/developer/skills/` without 
 
 Exploratory docs may live at `docs/developer/` top level during implementation. When stable, promote using [working-doc-promotion.md](../approach/working-doc-promotion.md).
 
-Current working spec: [phase4-reconciliation-closeout.md](../phase4-reconciliation-closeout.md) (M-012, implemented; promote at sprint close-out).
+M-012 close-out spec: [knowledge-reconciliation-closeout.md](../approach/knowledge-reconciliation-closeout.md) (promoted in v0.2.0).
 
 ## Text-first knowledge posture
 

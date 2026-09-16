@@ -1,10 +1,10 @@
-# Phase 4 knowledge reconciliation close-out (working spec)
+# Phase 4 knowledge reconciliation close-out
 
-Working spec for **M-012**. Status: **implemented**; milestone is in Acceptance. Promote to approach or archive at sprint close-out.
+Promoted from `docs/developer/phase4-reconciliation-closeout.md` at sprint close-out. Closed in [v0.2.0](../../../release/v0.2.0.md) (M-012).
 
-Governing stakeholder record: [missives/2026-07-27-mka-knowledge-reconciliation-plan.md](../../missives/2026-07-27-mka-knowledge-reconciliation-plan.md). Session brief: [missives/2026-09-16-knowledge-reconciliation-closeout.md](../../missives/2026-09-16-knowledge-reconciliation-closeout.md).
+Governing stakeholder record: [missives/2026-07-27-mka-knowledge-reconciliation-plan.md](../../missives/2026-07-27-mka-knowledge-reconciliation-plan.md). Close-out missive: [missives/2026-09-16-knowledge-reconciliation-closeout.md](../../missives/2026-09-16-knowledge-reconciliation-closeout.md).
 
-This milestone **closes knowledge reconciliation**. It does not execute pilots M-008 through M-011.
+This milestone **closed knowledge reconciliation**. It did not execute pilots M-008 through M-011.
 
 ## Preconditions
 
@@ -77,16 +77,14 @@ Karsheft pointer is optional follow-up in `/home/mzd/Lab/karsheft` (out of this 
 
 ## Install overlay verification
 
-Live diffs from `main` to `install` are typically `README.md`, `ROADMAP.md`, and `manifest/business-requirements.md`. This milestone will edit at least ROADMAP and BRs, and likely the maintainer README.
+Live diffs from `main` to `install` are typically `README.md`, `ROADMAP.md`, and `manifest/business-requirements.md`.
 
-Before merge:
+Sprint close-out (v0.2.0) publishes via `scripts/publish-to-install.sh`. Before that publish:
 
 ```bash
 ./scripts/validate-governance-structure.sh --context main
 ./scripts/test/run-local-harness.sh all
 ```
-
-Do **not** run `scripts/publish-to-install.sh` against origin unless this work is part of a sprint close-out release. Harness `publish` is the overlay check.
 
 ## Implementation order
 

@@ -1,6 +1,6 @@
 # 2026-07-27 MKA Knowledge Reconciliation Plan
 
-Imported from Lab `.attendant/missives/` as the governing stakeholder record for knowledge reconciliation. Status as of 2026-09-16: Phases 1–4 are executed in this repository. Close-out record: [2026-09-16-knowledge-reconciliation-closeout.md](2026-09-16-knowledge-reconciliation-closeout.md). Working spec: [docs/developer/phase4-reconciliation-closeout.md](../docs/developer/phase4-reconciliation-closeout.md).
+Imported from Lab `.attendant/missives/` as the governing stakeholder record for knowledge reconciliation. Status as of 2026-09-16: Phases 1–4 are executed in this repository. Close-out record: [2026-09-16-knowledge-reconciliation-closeout.md](2026-09-16-knowledge-reconciliation-closeout.md). Working spec: [docs/developer/approach/knowledge-reconciliation-closeout.md](../docs/developer/approach/knowledge-reconciliation-closeout.md).
 
 ## Decision Context
 
